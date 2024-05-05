@@ -6,12 +6,14 @@
 
 *{
   font-family: 'Nunito', sans-serif;
-  margin:0; padding:0;
+ 
   box-sizing: border-box;
   text-transform: capitalize;
   outline: none; border:none;
   text-decoration: none;
   transition: all .2s linear;
+max-width: 1400px;
+margin: auto;
 }
 /* 
 *::selection{
@@ -86,21 +88,6 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
-/* deatils
- */
- .deatils{
-  margin: 20px;
-  margin-bottom: 20px;
-  background: linear-gradient(#232936, #c0bd1c,#72a0a7);
- }
-
-/*------- gallery----- */
-/* start */
-#gallery-area{
-  background: linear-gradient(#00bcd4, #e91e63,#00bcd4);
-    display: grid;
-    grid-template-columns: auto auto ;
-}
 
 
 
